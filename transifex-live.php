@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Transifex_Live
- * @version 0.9.1
+ * @version 0.9.3
  */
 /*
 Plugin Name: Transifex Live Integration
 Plugin URI: http://wordpress.org/plugins/transifex-live/
 Description: Easily integrate Transifex Live (Beta) into your WordPress site.
 Author: ThemeBoy
-Version: 0.9.1
+Version: 0.9.3
 Author URI: http://themeboy.com/
 */
 
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /**
  * Plugin setup
  *
- * @since 0.9.1
+ * @since 0.9
 */
 class Transifex_Live {
 
@@ -49,7 +49,7 @@ class Transifex_Live {
 	 */
 	private function define_constants() {
 		if ( !defined( 'TRANSIFEX_LIVE_VERSION' ) )
-			define( 'TRANSIFEX_LIVE_VERSION', '0.9.1' );
+			define( 'TRANSIFEX_LIVE_VERSION', '0.9.3' );
 
 		if ( !defined( 'TRANSIFEX_LIVE_URL' ) )
 			define( 'TRANSIFEX_LIVE_URL', plugin_dir_url( __FILE__ ) );
